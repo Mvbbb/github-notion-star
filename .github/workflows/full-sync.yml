@@ -6,7 +6,7 @@ on:
 jobs:
   full-sync:
     runs-on: ubuntu-latest
-    environment: notion-sync
+    environment: env
     steps:
       - uses: actions/checkout@v2
 
